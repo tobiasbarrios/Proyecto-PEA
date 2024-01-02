@@ -1,0 +1,119 @@
+/* Resetear los márgenes y rellenos predeterminados del cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    color: #333;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #192D5E;
+    color: #FBFBFB;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #FBFBFB;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos y subtítulos */
+h1, h2, h3 {
+    color: #192D5E;
+}
+
+/* Enlaces */
+a {
+    color: #2890D3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1678C2;
+}
+
+/* Botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2890D3;
+    color: #FBFBFB;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1678C2;
+}
+
+/* Formulario */
+form {
+    margin-top: 20px;
+    max-width: 400px; /* Cambia el ancho máximo del formulario según tu preferencia */
+    margin: 0 auto; /* Centrar horizontalmente el formulario */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Ajusta el margen inferior para separar más el campo de email */
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    font-size: 14px; /* Ajusta el tamaño de fuente según tu preferencia */
+
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    font-size: 14px; /* Ajusta el tamaño de fuente según tu preferencia */
+}
+
+input[type="submit"] {
+    background-color: #192D5E;
+    color: #FBFBFB;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Ajusta el tamaño de fuente del botón según tu preferencia */
+}
+
+input[type="submit"]:hover {
+    background-color: #0E1D3A;
+}
+
+/* Pie de página */
+footer {
+    background-color: #192D5E;
+    color: #FBFBFB;
+    padding: 20px 0;
+}
+
+/* Estilos adicionales según sea necesario */
+.header-button {
+    float: left; /* Mueve el botón hacia la derecha */
+    margin-right: 10px; /* Espaciado derecho del botón */
+} 

@@ -1,0 +1,3 @@
+Para poder exportar la base de datos es necesario activar el apache y mysql en XAMPP
+Creas una nueva base de datos con el nombre de php_login_database e importas el archivo en la carpeta 26-10-23. 
+ 

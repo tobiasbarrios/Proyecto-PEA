@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" modified="2023-08-09T17:52:17.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="c1JmdiU1F0T3ooBsMyPJ" version="21.6.7" type="google">
+  <diagram name="Page-1" id="gVQldSUPe6O9OOOCvF0_">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tUI6Y5zgQLM2QCjN0oBs-1" value="Voluntarios" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tUI6Y5zgQLM2QCjN0oBs-4" value="Interactuan" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.271;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tUI6Y5zgQLM2QCjN0oBs-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="300.28999999999996" as="sourcePoint" />
+            <mxPoint x="520" y="300.28999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tUI6Y5zgQLM2QCjN0oBs-5" value="0" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="140" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tUI6Y5zgQLM2QCjN0oBs-7" value="PEA" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="tUI6Y5zgQLM2QCjN0oBs-5">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a21PhEZZ9rubq8lNW_DZ-1" value="Estudiantes" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a21PhEZZ9rubq8lNW_DZ-2" value="Interactuan" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="165.41" as="sourcePoint" />
+            <mxPoint x="520" y="165.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

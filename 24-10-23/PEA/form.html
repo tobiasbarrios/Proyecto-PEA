@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción de Estudiantes - PEA Vida Abundante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Fondo gris claro */
+            color: #333; /* Texto gris oscuro */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #0074e4; /* Azul */
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f8f8f8; /* Gris claro */
+        }
+
+        select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+        .submit-button {
+            background-color: #005aa7; /* Azul oscuro */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-button:hover {
+            background-color: #0074e4; /* Cambio de color al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Inscripción de Estudiantes - PEA Vida Abundante</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="genero">Género:</label>
+                <select id="genero" name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Número de teléfono:</label>
+                <input type="text" id="telefono" name="telefono" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electrónico:</label>
+                <input type="text" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="nivel_educacion">Nivel de Educación Deseado:</label>
+                <select id="nivel_educacion" name="nivel_educacion">
+                    <option value="alfabetizacion">Alfabetización</option>
+                    <option value="primaria">Primaria</option>
+                    <option value="secundaria">Secundaria</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cursos">Cursos específicos:</label>
+                <select multiple id="cursos" name="cursos[]">
+                    <option value="curso1">Curso 1</option>
+                    <option value="curso2">Curso 2</option>
+                    <option value="curso3">Curso 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="documentos">Cargar documentos relevantes:</label>
+                <input type="file" id="documentos" name="documentos" accept=".pdf,.doc,.docx">
+            </div>
+            <div class="form-group">
+                <label for="nota_documentos">Nota explicativa sobre los documentos requeridos:</label>
+                <textarea id="nota_documentos" name="nota_documentos" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="como_se_entero">¿Cómo se enteró del programa?</label>
+                <select id="como_se_entero" name="como_se_entero">
+                    <option value="recomendacion">Recomendación</option>
+                    <option value="anuncio">Anuncio</option>
+                    <option value="internet">Internet</option>
+                    <option value="otros">Otros</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="discapacidad">¿Tiene alguna discapacidad o necesidad especial?</label>
+                <input type="text" id="discapacidad" name="discapacidad">
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="consentimiento" name="consentimiento" required>
+                <label for="consentimiento">Declaro que la información proporcionada es precisa y completa.</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terminos_condiciones" name="terminos_condiciones" required>
+                <label for="terminos_condiciones">Acepto los términos y condiciones del programa.</label>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="submit-button" value="Guardar">
+                <input type="submit" class="submit-button" value="Enviar">
+                <input type="reset" class="submit
